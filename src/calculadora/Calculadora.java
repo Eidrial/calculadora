@@ -99,6 +99,10 @@ public class Calculadora {
 
     
     
+    
+    
+    
+    
     //borrado comentario
     
 // Devuelve una cadena de texto con los valores de los atributos
