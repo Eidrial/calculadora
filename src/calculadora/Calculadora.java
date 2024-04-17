@@ -103,15 +103,15 @@ public class Calculadora {
     
     
     
-    //borrado comentario
+    //Haciendo pruebas para GIT
     
 // Devuelve una cadena de texto con los valores de los atributos
-//    @Override
-//    public String toString() {
-//        //return "Calculadora{" + "marca=" + marca + ", modelo=" + modelo + ", nserie=" + nserie + '}';
-//        String datos = "La marca de la calculadora es: " + this.marca + ".\nEl modelo de la calculadora es: " + this.modelo + ".\nEl numero de serie de la calculadora es: " + this.nserie + ".";
-//        return datos;
-//    }
+    @Override
+    public String toString() {
+        //return "Calculadora{" + "marca=" + marca + ", modelo=" + modelo + ", nserie=" + nserie + '}';
+        String datos = "La marca de la calculadora es: " + this.marca + ".\nEl modelo de la calculadora es: " + this.modelo + ".\nEl numero de serie de la calculadora es: " + this.nserie + ".";
+        return datos;
+    }
 
 // Getters y Setters, podremos cambiar datos de los atributos seleccionados a través de esto,,, se hace con atributos privados.
     public String getMarca() {
@@ -129,5 +129,15 @@ public class Calculadora {
     public void setModelo(String modelo) {
         this.modelo = modelo;
     }
+
+    public String getNserie() {
+        return nserie;
+    }
+
+    public void setNserie(String nserie) {
+        this.nserie = nserie;
+    }
+    
+    
 
 }
